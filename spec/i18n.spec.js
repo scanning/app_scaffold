@@ -2,11 +2,11 @@
 import i18n from '../src/javascripts/lib/i18n'
 
 const mockEN = {
-  'one': 'the first translation',
+  one: 'the first translation',
   'two.one': 'the second translation for: {{fname}}',
   'two.two': 'the second translation for: {{fname}}-{{lname}}',
   'three.one.one': 'the third translation from {{name}} for {{name}} should be {{name}}',
-  'four': {}
+  four: {}
 }
 
 jest.mock('../src/translations/en', () => {
