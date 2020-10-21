@@ -1,4 +1,5 @@
 /* eslint-env jest, browser */
+import 'babel-polyfill'
 import App from '../src/javascripts/modules/app'
 import { CLIENT, ORGANIZATIONS } from './mocks/mock'
 import createRangePolyfill from './polyfills/createRange'
